@@ -1,4 +1,4 @@
-package com.muratguzel.coinverse
+package com.muratguzel.coinverse.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.muratguzel.coinverse.ui.theme.CoinverseTheme
+import com.muratguzel.coinverse.presentation.ui.theme.CoinverseTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
